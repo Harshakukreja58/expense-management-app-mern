@@ -1,0 +1,14 @@
+
+
+.register-page{
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heading{
+    align-items: start;
+}
