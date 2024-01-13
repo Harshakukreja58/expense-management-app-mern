@@ -21,10 +21,10 @@ app.use(express.json());
 app.use(cors());
 
 //routes(user)
-app.use("/api/v1/users", require("./routes/userRoute"));
+app.use("/users", require("./routes/userRoute"));
 
 //transaction routes
-app.use("/api/v1/transactions", require("./routes/transactionRoute"));
+app.use("/transactions", require("./routes/transactionRoute"));
 
 //static files
 app.use(express.static(path.join(__dirname, "./client/build")));
